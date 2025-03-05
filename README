@@ -41,9 +41,9 @@ INSTALLATION:
 1. Download the script `stb-bands.x` (or rename your file to this).
 2. Ensure dependencies are installed:
 
-```
+´´´
 stb-bands.x --input-file <input_file> --shift <option> [--manual-value <value>]
-```
+´´´
 
 ARGUMENTS:
 ----------
