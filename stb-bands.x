@@ -168,8 +168,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Run stb-bands.x to process band structure data.",
         epilog="Example usage:\n"
-               "  python stb_bands.py --input-file siesta.bands --shift fermi\n"
-               "  python stb_bands.py --input-file siesta.bands --shift manual --manual-value 0.5",
+               "  stb_bands.x --input-file siesta.bands --shift fermi\n"
+               "  stb_bands.x --input-file siesta.bands --shift manual --manual-value 0.5",
         formatter_class=argparse.RawTextHelpFormatter
     )
 
