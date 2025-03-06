@@ -2,7 +2,6 @@ README for Siesta Tool Box - Bands (STB-Bands)
 =============================================
 
 A Python script to extract and visualize electronic band structures from SIESTA calculations.
-Developed by Dr. Carlos M. O. Bastos at the University of Brasilia (UnB), Brazil.
 
 ********************************************************************************************
 
@@ -41,9 +40,9 @@ INSTALLATION:
 1. Download the script `stb-bands.x` (or rename your file to this).
 2. Ensure dependencies are installed:
 
-```
+´´´
 stb-bands.x --input-file <input_file> --shift <option> [--manual-value <value>]
-```
+´´´
 
 ARGUMENTS:
 ----------
