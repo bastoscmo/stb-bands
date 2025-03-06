@@ -59,7 +59,7 @@ def plot_gnuplot(high_sym):
     fileout.append('#set label "Critical point" at 10, 100 front font ",12" textcolor rgb "red"\n')
     fileout.append(f'set arrow from {high_sym[0][1]},0.0 to {high_sym[-1][1]} ,0.0 nohead dt 2 lc rgb "dark-gray" lw 4 back\n')
     for i in range(len(high_sym)-2):
-        fileout.append(f'set arrow from {float(high_sym[i+1][1])} ,graph 0 to {float(high_sym[i+1][1])},graph 1 nohead dt 2 lc rgb "dark-gray" lw 4 back\n')
+        fileout.append(f'set arrow from {float(high_sym[i+1][0])} ,graph 0 to {float(high_sym[i+1][0])},graph 1 nohead dt 2 lc rgb "dark-gray" lw 4 back\n')
     fileout.append('\n')
     fileout.append('# Color palette and colorbar (useful for pm3d plots)\n')
     fileout.append('#set palette defined (0 "blue", 1 "green", 2 "yellow", 3 "red")\n')
